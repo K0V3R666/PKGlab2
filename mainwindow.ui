@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>978</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(200, 200, 200, 255), stop:1 rgba(100, 100, 100, 255));
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="chooseFileBut">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>151</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-weight: bold;
+   padding: 5px;
+   background: #00ffff;
+ border: 1px solid #dddddd;
+border-radius: 10px;</string>
+    </property>
+    <property name="text">
+     <string>Выбрать Папку</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>0</y>
+      <width>571</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-weight: bold;
+padding: 5px;
+background: #ffff7f;
+border: 1px solid #dddddd;
+border-radius: 10px;</string>
+    </property>
+    <property name="text">
+     <string>Информация:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="InfLabel">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>30</y>
+      <width>571</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-weight: bold;
+padding: 5px;
+background: #ffddfd;
+border: 1px solid #dddddd;
+border-radius: 10px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="mainTable">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>901</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: Arial, sans-serif;
+color: rgb(255, 85, 255);
+background-color: rgb(255, 85, 255);
+font-size: 14px;
+
+background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #beffa0, stop:1 #f5f5f5);
+border: 1px solid #dddddd;
+color: #g38f4k;
+border-radius: 5px;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>10</y>
+      <width>161</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-weight: bold;
+   padding: 5px;
+   background: #00ffff;
+ border: 1px solid #dddddd;
+border-radius: 10px;</string>
+    </property>
+    <property name="text">
+     <string>Выбрать Файл</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>978</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
